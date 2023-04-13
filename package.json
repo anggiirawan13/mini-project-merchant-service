@@ -1,0 +1,29 @@
+{
+  "name": "mini-project-merchant-service",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Anggi Irawan",
+  "description": "Mini Project Merchant Service",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "keywords": [
+    "mini",
+    "project",
+    "merchant",
+    "service"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "debug": "~2.6.9",
+    "mysql": "^2.18.1",
+    "basic-auth": "^2.0.1",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "password-validator": "^5.3.0"
+  }
+}
