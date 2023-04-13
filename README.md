@@ -108,11 +108,12 @@ DB_PASS=#custom_your_db_pass
 DB_NAME=merchant_service
 ```
 
-## Postman collection
+## Postman Collection
 
-Here is the postman collection and environment if you need to run the API using postman -> [Environment & Collection](https://api.postman.com/collections/22921760-94a6b7ab-eb93-470c-af49-57ff765d9b60?access_key=PMAT-01GXV6W4Z9DMH67Y6RVYWM93Y0)
+- Here is the postman collection if you need to run the API using postman: [./Mini Project Merchant Service.postman_collection.json]
+- Here is the postman environment if you need to run the API using postman: [./Mini Project Merchant Service.postman_environment.json]
 
-## API Endpoint
+## API Endpoints
 
 | Methods   | Endpoints           | Descriptions      |
 | --------- | ------------------- | ----------------- |
