@@ -126,7 +126,7 @@ const doStore = async (req, isUpdate) => {
     account_id
   );
 
-  if (!productExist) throw { code: 400, message: "DATA_ALREADY_EXIST" };
+  if (productExist) throw { code: 400, message: "DATA_ALREADY_EXIST" };
 
   isUpdate
     ? updateProductRepositories(req, account_id)

@@ -22,7 +22,7 @@ const storeAccountRepositories = (req) => {
 const updateAccountRepositories = (req) => {
   const passHash = encodePasswd(req.body.password);
   query(
-    "UPDATE accounts SET name = ?, password = ?, address = ? phone_number = ? WHERE id = ?",
+    "UPDATE accounts SET name = ?, password = ?, address = ?, phone_number = ? WHERE id = ?",
     [
       req.body.name,
       passHash,
